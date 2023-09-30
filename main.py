@@ -3,7 +3,6 @@ import cv2 as cv
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-# Dataset Preparation
 dataset_path = "Dataset"
 list_person_names = os.listdir(dataset_path)
 haarcascade = cv.CascadeClassifier("haarcascade_frontalface_default.xml")
